@@ -378,6 +378,8 @@ const result = await sp.profiles.clientPeoplePickerSearchUser({
   AllowEmailAddresses: true,
   AllowMultipleEntities: false,
   MaximumEntitySuggestions: 25,
+  PrincipalSource: 15,
+  PrincipalType: 13,
   QueryString: 'John'
 });
 console.log(result);
